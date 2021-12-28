@@ -6,7 +6,8 @@ Color Palette: (RGB)
 15, 76, 92 (midnight green eagle green)
 */
 
-img {
+/*Header*/
+header img {
     width: 50px;
 }
 
@@ -31,7 +32,24 @@ a {
     text-decoration: none;
 }
 
-.container {
+/*Studio Section*/
+#studio .container {
+    background-image: url(danielle-cerullo-3ckWUnaCxzc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Schedule Section*/
+h2 {
+text-align: center;
+}
+
+#schedule .container {
     display: flex;
     flex-direction: column;
 }
