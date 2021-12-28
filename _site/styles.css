@@ -6,15 +6,30 @@ Color Palette: (RGB)
 15, 76, 92 (midnight green eagle green)
 */
 
+/*Universal Rules*/
+* {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1, h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
 /*Header*/
 header img {
-    width: 50px;
+    width: 4rem;
+    height: 4rem;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     border-bottom: solid .1rem rgb(227, 100, 20);
+    align-items: center;
 }
 
 nav ul {
@@ -25,6 +40,9 @@ nav ul {
 
 nav ul li {
     padding: 0px 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 a {
@@ -33,6 +51,9 @@ a {
 }
 
 /*Studio Section*/
+#studio h1 {
+    background-color: rgb(227, 100, 20);
+}
 #studio .container {
     background-image: url(danielle-cerullo-3ckWUnaCxzc-unsplash.jpg);
     background-position: center;
@@ -44,15 +65,43 @@ a {
     justify-content: center;
 }
 
+#studio #image-container h3 {
+    margin: 0;
+}
+
+#studio #image-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(15, 76, 92);
+    align-items: center;
+}
+
+#studio #image-container img {
+    height: 10rem;
+    width: auto;
+}
+
 /*About Section*/
+#about-para {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+#about h3 {
+    text-align: center;
+}
 #instructors {
     display: flex;
-    justify-content: center;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    
 }
 
 .instructor {
     background-color: rgb(251, 139, 36);
-    width: 30%;
+    width: 50%;
     padding: .25rem;
     margin: .25rem;
     display: flex;
@@ -101,11 +150,13 @@ text-align: center;
 #schedule .container {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin: auto;
 }
 
 .days {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .day {
@@ -119,7 +170,7 @@ text-align: center;
 
 .events {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .event {
@@ -128,4 +179,25 @@ text-align: center;
     margin: .25rem;
     background-color: rgb(251, 139, 36);
     text-align: center;
+}
+
+#prices .content {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+/*Footer*/
+
+footer {
+    background-color: rgb(15, 76, 92);
+}
+
+footer .content {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    color: rgb(251, 139, 36);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
