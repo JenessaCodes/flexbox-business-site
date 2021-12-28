@@ -44,6 +44,55 @@ a {
     justify-content: center;
 }
 
+/*About Section*/
+#instructors {
+    display: flex;
+    justify-content: center;
+}
+
+.instructor {
+    background-color: rgb(251, 139, 36);
+    width: 30%;
+    padding: .25rem;
+    margin: .25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jenessa {
+    background-image: url(ayo-ogunseinde-RrD8ypt8cjY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#marco {
+    background-image: url(mohammad-faruque-TwuPHbcQ57w-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.instructor ul {
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0;
+    height: 5rem;
+}
+
+.instructor ul li {
+    background-color: rgba(227, 100, 20, .5);
+    padding: .25rem;
+    margin: .25rem;
+}
+
+.instructor p {
+    background-color: rgba(227, 100, 20, .8);
+    padding: .25rem;
+    margin: .25rem;
+    margin-top: 7rem;
+}
 /*Schedule Section*/
 h2 {
 text-align: center;
