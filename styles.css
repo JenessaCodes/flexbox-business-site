@@ -30,3 +30,36 @@ a {
     color:rgb(227, 100, 20);
     text-decoration: none;
 }
+
+.container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.days {
+    display: flex;
+    justify-content: start;
+}
+
+.day {
+    width: 10%;
+    padding: .25rem;
+    margin: .25rem;
+    background-color: rgb(15, 76, 92);
+    text-align: center;
+    color:rgb(251, 139, 36);
+}
+
+.events {
+    display: flex;
+    justify-content: start;
+}
+
+.event {
+    width: 10%;
+    padding: .25rem;
+    margin: .25rem;
+    background-color: rgb(251, 139, 36);
+    text-align: center;
+}
