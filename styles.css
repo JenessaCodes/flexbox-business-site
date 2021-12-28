@@ -33,13 +33,12 @@ a {
 
 .container {
     display: flex;
-    justify-content: start;
     flex-direction: column;
 }
 
 .days {
     display: flex;
-    justify-content: start;
+    justify-content: center;
 }
 
 .day {
@@ -53,7 +52,7 @@ a {
 
 .events {
     display: flex;
-    justify-content: start;
+    justify-content: center;
 }
 
 .event {
